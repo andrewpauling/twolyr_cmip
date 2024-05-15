@@ -98,9 +98,9 @@ class TwoLayerModel:
         self.params["lam"] = -slope
         
         if self.verbose:
-            print(f"--Teq = {self.params['Teq']}")
-            print(f"--F_ref = {self.params['F_ref']}")
-            print(f"--lam = {self.params['lam']}")
+            print(f"--Teq = {self.params['Teq'].data}")
+            print(f"--F_ref = {self.params['F_ref'].data}")
+            print(f"--lam = {self.params['lam'].data}")
 
     def __compute_prelim_params(self, T):
         """Compute preliminary parameters needed to fit model according to Geoffroy et al. (2013)

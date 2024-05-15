@@ -91,6 +91,7 @@ target/
 .mypy_cache/
 
 *.zip
+*.pkl
 *.nc
 data/processed
 data/obsdata
