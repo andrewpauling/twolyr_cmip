@@ -25,6 +25,10 @@ cd data
 ./getdata.sh
 ```
 
+Then, open JupyterHub, open the notebook in notebooks/twolyr_epsilon_ap.ipynb, select the kernel "Python [conda env:miniconda3-twolyr_cmip]" or whatever your system has called it from the drop-down menu top-right, and run!
+
+The actual code that does the fitting of the model is in twolyr_cmip/twolyr.py, and the notebook uses this for the CMIP6 models I used in my paper.
+
 
 --------
 
